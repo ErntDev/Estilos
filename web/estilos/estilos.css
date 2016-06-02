@@ -1,5 +1,5 @@
 body{
-    background-color: #FAFAFA;
+    background-color: white;
     margin: 0;
     padding: 0;
 }
@@ -35,7 +35,7 @@ nav li{
 }
 
 nav li a {
-	padding: 10px 20px 10px 20px; /*Espacio a los lados*/
+	padding: 10px 20px 10px 20px; /*Espacio a los lados: Arriba - Derecha - Abajo - Izquieda*/
 	color: #FFF; /*Color del enlace*/
 	background-color: #4CAF50; /*Color de fondo*/
 	text-decoration: none; /*Permite quitar el subrayado a los enlaces*/
@@ -45,4 +45,27 @@ nav li a {
 nav li a:hover{
 	background-color: #333333;
 	color: #ffffff;
+}
+
+article.foto_uam{
+    text-align: center;
+}
+
+article.info_uam{
+    background-color: #EEEEEE;
+    padding: 10px 30px 10px 30px; /*Espacio a los lados: Arriba - Derecha - Abajo - Izquieda*/
+}
+
+h2.bienvenida{
+    text-align: center;
+}
+
+p.director{
+    text-align:right;
+}
+
+#pie_pagina{
+    text-align: center;
+    background-color: black;
+    color:white;
 }
