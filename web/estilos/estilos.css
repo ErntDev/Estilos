@@ -1,1 +1,48 @@
+body{
+    background-color: #FAFAFA;
+    margin: 0;
+    padding: 0;
+}
 
+header.encabezado{
+    padding: 1em;
+    background-color: #E8F5E9;
+}
+
+h1{
+    font-family: Georgia;
+    color: #795548;
+    text-align: right;
+}
+
+#unidad {
+    text-align: right;
+}
+
+nav{
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none; /* Indicamos que no va a utilizar bolitas o marcas de ningún tipo al lado de los elementos de la lista*/
+}
+
+/*Estilos para cada uno de los elementos de la lista*/
+nav li{
+    display: inline; /*Hace que los elementos se pongan uno detrás de otro en la misma línea*/
+    text-align: center;
+    margin: 0 10px 0 0; /*Indicamos un margen entre los elementos*/
+}
+
+nav li a {
+	padding: 10px 20px 10px 20px; /*Espacio a los lados*/
+	color: #FFF; /*Color del enlace*/
+	background-color: #4CAF50; /*Color de fondo*/
+	text-decoration: none; /*Permite quitar el subrayado a los enlaces*/
+}
+
+/*Pseudoclase hover para definir un estilo distinto cuando el ratón pasa por encima de un enlace*/
+nav li a:hover{
+	background-color: #333333;
+	color: #ffffff;
+}
